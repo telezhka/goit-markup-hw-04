@@ -11,7 +11,6 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
@@ -19,42 +18,43 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="header">
-      <div class="header-border portfolio">
-        <div class="container header-flex">
-          <nav class="nav">
-            <a href="./index.html" class="logo-header"
-              ><span class="logo-first">Web</span>Studio</a
-            >
-            <ul class="nav-main">
-              <li><a class="nav-main-item" href="./index.html">Studio</a></li>
-              <li>
-                <a class="nav-main-item" href="./portfolio.html">Portfolio</a>
-              </li>
-              <li><a class="nav-main-item last" href="">Contacts</a></li>
-            </ul>
-          </nav>
-          <address>
-            <ul class="contacts-list">
-              <li>
-                <a class="contacts mail" href="mailto:info@devstudio.com"
-                  >info@devstudio.com</a
-                >
-              </li>
-              <li>
-                <a class="contacts" href="tel:+110001111111"
-                  >+11 (000) 111-11-11</a
-                >
-              </li>
-            </ul>
-          </address>
-        </div>
+      <div class="container header-flex">
+        <nav class="nav">
+          <a href="./index.html" class="logo-header"
+            ><span class="logo-first">Web</span>Studio</a
+          >
+          <ul class="nav-main">
+            <li><a class="nav-main-item" href="./index.html">Studio</a></li>
+            <li>
+              <a class="nav-main-item" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-main-item-last">
+              <a class="nav-main-item last" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address>
+          <ul class="contacts-list">
+            <li class="contacts-mail">
+              <a class="contacts" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="contacts" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
       </div>
     </header>
     <main>
-      <section>
+      <section class="section-portfolio">
         <div class="container">
           <h1 class="hidden-title">Portfolio</h1>
           <ul class="buttons">
@@ -85,8 +85,10 @@
                   width="360"
                   height="300"
                 />
-                <h2 class="card-name">Banking App Interface Concept</h2>
-                <p class="card-desc">App</p>
+                <div class="prjct-card-brdr">
+                  <h2 class="card-name card">Banking App Interface Concept</h2>
+                  <p class="card-desc card">App</p>
+                </div>
               </a>
             </li>
             <li class="project-card">
@@ -97,8 +99,10 @@
                   width="360"
                   height="300"
                 />
-                <h2 class="card-name">Cashless Payment</h2>
-                <p class="card-desc">Marketing</p>
+                <div class="prjct-card-brdr">
+                  <h2 class="card-name card">Cashless Payment</h2>
+                  <p class="card-desc card">Marketing</p>
+                </div>
               </a>
             </li>
             <li class="project-card">
@@ -109,8 +113,10 @@
                   width="360"
                   height="300"
                 />
-                <h2 class="card-name">Meditaion App</h2>
-                <p class="card-desc">App</p>
+                <div class="prjct-card-brdr">
+                  <h2 class="card-name card">Meditaion App</h2>
+                  <p class="card-desc card">App</p>
+                </div>
               </a>
             </li>
             <li class="project-card">
@@ -121,8 +127,10 @@
                   width="360"
                   height="300"
                 />
-                <h2 class="card-name">Taxi Service</h2>
-                <p class="card-desc">Marketing</p>
+                <div class="prjct-card-brdr">
+                  <h2 class="card-name card">Taxi Service</h2>
+                  <p class="card-desc card">Marketing</p>
+                </div>
               </a>
             </li>
             <li class="project-card">
@@ -133,8 +141,10 @@
                   width="360"
                   height="300"
                 />
-                <h2 class="card-name">Screen Illustrations</h2>
-                <p class="card-desc">Design</p>
+                <div class="prjct-card-brdr">
+                  <h2 class="card-name card">Screen Illustrations</h2>
+                  <p class="card-desc card">Design</p>
+                </div>
               </a>
             </li>
             <li class="project-card">
@@ -145,8 +155,10 @@
                   width="360"
                   height="300"
                 />
-                <h2 class="card-name">Online Courses</h2>
-                <p class="card-desc">Marketing</p>
+                <div class="prjct-card-brdr">
+                  <h2 class="card-name card">Online Courses</h2>
+                  <p class="card-desc card">Marketing</p>
+                </div>
               </a>
             </li>
             <li class="project-card">
@@ -157,8 +169,10 @@
                   width="360"
                   height="300"
                 />
-                <h2 class="card-name">Instagram Stories Concept</h2>
-                <p class="card-desc">Design</p>
+                <div class="prjct-card-brdr">
+                  <h2 class="card-name card">Instagram Stories Concept</h2>
+                  <p class="card-desc card">Design</p>
+                </div>
               </a>
             </li>
             <li class="project-card">
@@ -169,8 +183,10 @@
                   width="360"
                   height="300"
                 />
-                <h2 class="card-name">Organic Food</h2>
-                <p class="card-desc">Web Site</p>
+                <div class="prjct-card-brdr">
+                  <h2 class="card-name card">Organic Food</h2>
+                  <p class="card-desc card">Web Site</p>
+                </div>
               </a>
             </li>
             <li class="project-card">
@@ -181,8 +197,10 @@
                   width="360"
                   height="300"
                 />
-                <h2 class="card-name">Fresh Coffee</h2>
-                <p class="card-desc">Web Site</p>
+                <div class="prjct-card-brdr">
+                  <h2 class="card-name card">Fresh Coffee</h2>
+                  <p class="card-desc card">Web Site</p>
+                </div>
               </a>
             </li>
           </ul>
