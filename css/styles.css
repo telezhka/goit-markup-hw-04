@@ -76,7 +76,6 @@ img {
   color: var(--brand-color);
   letter-spacing: 0.02em;
   line-height: 1.5;
-  margin-right: 40px;
 }
 .nav-main-item:hover,
 .nav-main-item:focus {
@@ -253,20 +252,25 @@ img {
   display: flex;
   margin-right: auto;
 }
+.nav-li {
+  margin-right: 40px;
+}
+.nav-li:last-child {
+  margin-right: 0;
+}
 .contacts-list {
   display: flex;
 }
-.nav-main-item.last {
-  margin-right: 0;
-}
 
-.contacts-mail {
+.contact {
   margin-right: 40px;
+}
+.contact:last-child {
+  margin-right: 0;
 }
 .desc {
   display: flex;
-  row-gap: 24px;
-  justify-content: space-between;
+  column-gap: 24px;
 }
 .desc-item {
   width: 270px;
