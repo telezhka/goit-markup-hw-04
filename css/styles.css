@@ -21,9 +21,6 @@ ul {
 a {
   text-decoration: none;
 }
-footer {
-  background-color: var(--brand-color);
-}
 p,
 h1,
 h2,
@@ -52,6 +49,8 @@ img {
 /* header */
 .header {
   border-bottom: 1px solid #e7e9fc;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .logo-first {
   font-family: "Raleway", sans-serif;
@@ -98,12 +97,12 @@ img {
 .hero {
   background-color: var(--brand-color);
   padding: 188px 0;
+  text-align: center;
 }
 .hero-text {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.071;
-  text-align: center;
   color: #ffffff;
   width: 494px;
   margin: 0 auto 48px auto;
@@ -122,8 +121,6 @@ img {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
-  display: block;
-  margin: 0 auto;
 }
 .hero-btn:hover,
 .hero-btn:active {
@@ -197,6 +194,7 @@ img {
 /* footer */
 .footer {
   padding: 100px 0;
+  background-color: var(--brand-color);
 }
 .logo-footer {
   font-weight: 800;
@@ -232,16 +230,14 @@ img {
   background-color: var(--brand-color-light);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-  font-weight: 500;
-  text-align: center;
-  letter-spacing: 0.04em;
   color: #ffffff;
+  border-color: transparent;
 }
 .project-filter-btn:active,
 .project-filter-btn:focus {
   background-color: var(--brand-btn-act);
   color: #ffffff;
+  border-color: transparent;
 }
 
 /* margins paddings flex */
@@ -249,8 +245,6 @@ img {
 .header-flex {
   display: flex;
   justify-content: space-between;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .nav {
   display: flex;
@@ -307,7 +301,7 @@ img {
   flex-wrap: wrap;
   justify-content: center;
   row-gap: 48px;
-  column-gap: 20px;
+  column-gap: 24px;
 }
 .prjct-card-brdr {
   border-left: 1px solid #e7e9fc;
