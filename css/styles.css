@@ -102,8 +102,8 @@ img {
     url("../images/people-office.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
+  background-size: contain;
+  background-attachment: scroll;
   padding: 188px 0;
   text-align: center;
 }
@@ -423,11 +423,9 @@ img {
   padding-bottom: 32px;
   padding-left: 16px;
 }
-.project-card-link:hover > .prjct-card-brdr,
-.project-card-link:focus > .prjct-card-brdr {
-  border-left: 1px solid #f4f4fd;
-  border-bottom: 1px solid #f4f4fd;
-  border-right: 1px solid #f4f4fd;
+.project-card-link:hover,
+.project-card-link:focus {
+  display: block;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
